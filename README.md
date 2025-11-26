@@ -25,3 +25,9 @@ Users can type commands starting with `*` to get item information displayed in s
   - Delay  
 - **JSON Data Storage**  
   All items are loaded from `items.json` on bot startup
+  
+---
+
+## Setup
+
+- Enter your Discord token in .env
