@@ -1,0 +1,26 @@
+[
+  {
+    "id": "416",
+    "name": "Ultimatum",
+    "catagory": "Primary",
+    "rarity": "Mythical",
+    "damage": {
+        "body": 225,
+        "head": 315
+    },
+    "FireRate": 0.38,
+    "capacity": 10,
+    "delay": {
+        "recieves": true,
+        "gives": true
+    },
+    "attributes": {
+      "wallbreak": true,
+      "piercing": true,
+      "shotgun": true
+    },
+    "mobility": 50,
+    "description": "When you have this gun in your hands, every sentence of yours becomes the ultimatum and needs to be executed right away.\nThe power of words and shotgun shells..."
+  }
+
+]
