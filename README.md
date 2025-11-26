@@ -1,2 +1,27 @@
 # simple-discord-bot-database
-A Discord bot built with Node.js that responds to commands, retrieves item data from a JSON database, and displays it using rich embeds. Includes support for commands like *help, *ping, and item lookups by ID or name. Designed for games, collections, galleries, and inventory systems. Built for Pixel Gun 3D.
+A Discord bot built using **Node.js** and **discord.js** that provides item lookup functionality from a JSON database.  
+Users can type commands starting with `*` to get item information displayed in structured embeds.
+
+---
+
+## ✨ Features
+
+- **Command System** using a `*` prefix  
+- Built-in commands:
+  - `*help` — Shows help information  
+  - `*ping` — Basic test response  
+- **Item Lookup:**  
+  Users can search for items by ID **or** name
+- **Embed-Based Item Display**  
+  Automatically formats:
+  - Name & Gallery ID  
+  - Description  
+  - Rarity  
+  - Damage (body/head)  
+  - Fire rate  
+  - Capacity  
+  - Mobility  
+  - Attributes  
+  - Delay  
+- **JSON Data Storage**  
+  All items are loaded from `items.json` on bot startup
